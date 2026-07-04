@@ -23,14 +23,16 @@ applied end-to-end and at a national scale.
 
 ## Key Findings
 
-- **Andhra Pradesh** is the leading CV market overall, with **5.8M+ total registrations**
-  in the analyzed period — followed by Tamil Nadu, Rajasthan, Arunachal Pradesh, and Kerala.
+- Analyzed **26M+ CV registrations across 34 states** (2020–2023, after excluding
+  incomplete 2019 and 2024 data — see Data Quality Notes below).
+- **Andhra Pradesh** is the leading CV market overall — followed by Tamil Nadu,
+  Arunachal Pradesh, Rajasthan, and Kerala.
 - **Chhattisgarh** stands out as the most consistently high-growth state, with **+69% YoY
   growth in 2022** and **+21% YoY growth in 2023** — sustained growth across two years,
   rather than a single-year spike.
 - **Tripura** had the single highest YoY growth rate recorded (**+98% in 2022**), though
   this reflects a smaller base than larger states.
-- CV registrations are split between **Heavy Goods Vehicles** and **Light Goods Vehicles**
+- CV registrations are split across **Light, Heavy, and Medium Goods Vehicles**
   nationally (see `analysis_queries.sql`, Query 4, for the exact percentage split).
 - National CV registration growth was strongest in 2022, moderating into 2023.
 
@@ -61,7 +63,7 @@ identifying and correcting the following issues before trusting any growth metri
 - **Python:** pandas (cleaning, feature engineering), matplotlib/seaborn (visualization)
   — see the Jupyter notebook in this repo
 - **Power BI:** interactive dashboard with drill-down (Decomposition Tree), KPI cards,
-  treemap, donut chart, and slicers — see `cv project.pbix`
+  treemap, donut chart, and slicers — see `cv_registrations_dashboard.pbix`
 
 ---
 
@@ -69,11 +71,9 @@ identifying and correcting the following issues before trusting any growth metri
 
 ![Dashboard](dashboard_screenshot.png)
 
-*Dashboard includes: KPI cards (total registrations, active states), a donut chart
-showing vehicle type mix (Light/Heavy/Medium Goods Vehicle), a state-wise bar chart,
-a year-over-year trend line comparing top states, a Year slicer for interactive
-filtering, and a Decomposition Tree for drilling down from total registrations
-through RTO level.*
+*Includes: KPI cards, state-wise treemap, Heavy vs Light Goods Vehicle donut chart, top
+states bar chart, and an interactive Decomposition Tree for drilling down from
+State → RTO → Vehicle Type.*
 
 ---
 
@@ -99,4 +99,4 @@ Government of India, VAHAN Vehicle Registrations by Vehicle Category, via
 
 ## Author
 
-**Greeshma Rao** · Data Analyst
+**Greeshma Rao** · Data Analyst | Pursuing M.Sc. Data Science, University of Mumbai
