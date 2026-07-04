@@ -69,9 +69,11 @@ identifying and correcting the following issues before trusting any growth metri
 
 ![Dashboard](dashboard_screenshot.png)
 
-*Includes: KPI cards, state-wise treemap, Heavy vs Light Goods Vehicle donut chart, top
-states bar chart, and an interactive Decomposition Tree for drilling down from
-State → RTO → Vehicle Type.*
+*Dashboard includes: KPI cards (total registrations, active states), a donut chart
+showing vehicle type mix (Light/Heavy/Medium Goods Vehicle), a state-wise bar chart,
+a year-over-year trend line comparing top states, a Year slicer for interactive
+filtering, and a Decomposition Tree for drilling down from total registrations
+through RTO level.*
 
 ---
 
