@@ -69,7 +69,7 @@ identifying and correcting the following issues before trusting any growth metri
 
 ## Dashboard
 
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](dashboard_screenshot.PNG)
 
 *Includes: KPI cards, state-wise treemap, Heavy vs Light Goods Vehicle donut chart, top
 states bar chart, and an interactive Decomposition Tree for drilling down from
@@ -85,7 +85,7 @@ State → RTO → Vehicle Type.*
 | `cv project.ipynb` | Python notebook — data cleaning, feature engineering, EDA |
 | `cv_registrations_cleaned.csv` | Cleaned dataset (CV-only, post data quality fixes) |
 | `cv project.pbix` | Power BI dashboard file |
-| `dashboard_screenshot.png` | Dashboard preview image |
+| `dashboard_screenshot.PNG` | Dashboard preview image |
 | `top_cv_states.png`, `cv_national_trend.png` | Supporting chart exports from Python |
 
 ---
