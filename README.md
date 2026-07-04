@@ -63,7 +63,7 @@ identifying and correcting the following issues before trusting any growth metri
 - **Python:** pandas (cleaning, feature engineering), matplotlib/seaborn (visualization)
   — see the Jupyter notebook in this repo
 - **Power BI:** interactive dashboard with drill-down (Decomposition Tree), KPI cards,
-  treemap, donut chart, and slicers — see `cv_registrations_dashboard.pbix`
+  treemap, donut chart, and slicers — see `cv project.pbix`
 
 ---
 
