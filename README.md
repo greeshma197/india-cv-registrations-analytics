@@ -97,4 +97,4 @@ Government of India, VAHAN Vehicle Registrations by Vehicle Category, via
 
 ## Author
 
-**Greeshma Rao** · Data Analyst | Pursuing M.Sc. Data Science, University of Mumbai
+**Greeshma Rao** · Data Analyst
