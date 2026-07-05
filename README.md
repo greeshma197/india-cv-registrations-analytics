@@ -69,7 +69,7 @@ identifying and correcting the following issues before trusting any growth metri
 
 ## Dashboard
 
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](dashboard_screenshot.PNG)
 
 *Includes: KPI cards, state-wise treemap, Heavy vs Light Goods Vehicle donut chart, top
 states bar chart, and an interactive Decomposition Tree for drilling down from
